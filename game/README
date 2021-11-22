@@ -1,0 +1,34 @@
+Game Core assignment for 4160
+Enes Cakir
+
+Makefile commands are
+    make
+    make clean
+
+Command to run the game
+     ./myGame
+   
+  
+     
+A tile map is used as the background for the game, and each image is scaled to 32 by 32. 
+
+Game is the class used for the game's engine
+GameObject is the class for the player object
+TextureManager is the class used to render images into textures
+Map is the class used to create a tile map background
+
+Two methods for movement in Game
+    1. The directional keys
+        Up
+        Down
+        Left
+        Right
+    2. W A S D
+        W is Up
+        A is Left
+        S is Down
+        D is Right
+
+Game will not allow movement outside of the window
+
+
